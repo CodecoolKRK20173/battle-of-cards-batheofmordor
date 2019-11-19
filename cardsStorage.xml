@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cards>
+    <Card id="Gnome Warrior">
+        <Stats>
+            <Stat id="attack">7</Stat>
+            <Stat id="defence">4</Stat>
+            <Stat id="magic">4</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Gnome Archer">
+        <Stats>
+            <Stat id="attack">9</Stat>
+            <Stat id="defence">2</Stat>
+            <Stat id="magic">4</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Gnome Mage">
+        <Stats>
+            <Stat id="attack">4</Stat>
+            <Stat id="defence">1</Stat>
+            <Stat id="magic">8</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Gnome Screamer">
+        <Stats>
+            <Stat id="attack">5</Stat>
+            <Stat id="defence">3</Stat>
+            <Stat id="magic">3</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Goblin Warrior">
+        <Stats>
+            <Stat id="attack">8</Stat>
+            <Stat id="defence">4</Stat>
+            <Stat id="magic">2</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Goblin Archer">
+        <Stats>
+            <Stat id="attack">10</Stat>
+            <Stat id="defence">3</Stat>
+            <Stat id="magic">2</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Goblin Mage">
+        <Stats>
+            <Stat id="attack">5</Stat>
+            <Stat id="defence">1</Stat>
+            <Stat id="magic">12</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Goblin Screamer">
+        <Stats>
+            <Stat id="attack">3</Stat>
+            <Stat id="defence">4</Stat>
+            <Stat id="magic">2</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Orc Warrior">
+        <Stats>
+            <Stat id="attack">10</Stat>
+            <Stat id="defence">5</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Orc Archer">
+        <Stats>
+            <Stat id="attack">11</Stat>
+            <Stat id="defence">4</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Orc Mage">
+        <Stats>
+            <Stat id="attack">4</Stat>
+            <Stat id="defence">1</Stat>
+            <Stat id="magic">10</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Orc Screamer">
+        <Stats>
+            <Stat id="attack">10</Stat>
+            <Stat id="defence">2</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ogre Warrior">
+        <Stats>
+            <Stat id="attack">15</Stat>
+            <Stat id="defence">5</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ogre Archer">
+        <Stats>
+            <Stat id="attack">15</Stat>
+            <Stat id="defence">3</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ogre Mage">
+        <Stats>
+            <Stat id="attack">8</Stat>
+            <Stat id="defence">4</Stat>
+            <Stat id="magic">12</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ogre Screamer">
+        <Stats>
+            <Stat id="attack">8</Stat>
+            <Stat id="defence">4</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Urag Spearthrower">
+        <Stats>
+            <Stat id="attack">10</Stat>
+            <Stat id="defence">10</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Orok the Swift">
+        <Stats>
+            <Stat id="attack">15</Stat>
+            <Stat id="defence">8</Stat>
+            <Stat id="magic">4</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Bomag the Second">
+        <Stats>
+            <Stat id="attack">9</Stat>
+            <Stat id="defence">9</Stat>
+            <Stat id="magic">5</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Weezer of the Swamp Forest">
+        <Stats>
+            <Stat id="attack">8</Stat>
+            <Stat id="defence">16</Stat>
+            <Stat id="magic">5</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Warlock of the Abyss">
+        <Stats>
+            <Stat id="attack">15</Stat>
+            <Stat id="defence">8</Stat>
+            <Stat id="magic">20</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Destroyer S'hrekk">
+        <Stats>
+            <Stat id="attack">20</Stat>
+            <Stat id="defence">8</Stat>
+            <Stat id="magic">4</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Jeff the Orkish Knight">
+        <Stats>
+            <Stat id="attack">15</Stat>
+            <Stat id="defence">15</Stat>
+            <Stat id="magic">10</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Je'shy Dud'ak the Keeper">
+        <Stats>
+            <Stat id="attack">5</Stat>
+            <Stat id="defence">30</Stat>
+            <Stat id="magic">5</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Gurub Gur the Necromancer">
+        <Stats>
+            <Stat id="attack">10</Stat>
+            <Stat id="defence">5</Stat>
+            <Stat id="magic">30</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Swamp Troll">
+        <Stats>
+            <Stat id="attack">25</Stat>
+            <Stat id="defence">10</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Half Orc Half Dragon">
+        <Stats>
+            <Stat id="attack">20</Stat>
+            <Stat id="defence">20</Stat>
+            <Stat id="magic">20</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ti'mey the Juggernaut">
+        <Stats>
+            <Stat id="attack">33</Stat>
+            <Stat id="defence">3</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ogre Fairy">
+        <Stats>
+            <Stat id="attack">7</Stat>
+            <Stat id="defence">10</Stat>
+            <Stat id="magic">30</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Jumuk Yum Yum">
+        <Stats>
+            <Stat id="attack">1</Stat>
+            <Stat id="defence">20</Stat>
+            <Stat id="magic">10</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Imperator Trollpatine">
+        <Stats>
+            <Stat id="attack">20</Stat>
+            <Stat id="defence">20</Stat>
+            <Stat id="magic">30</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Lu'Ke Groundrunner">
+        <Stats>
+            <Stat id="attack">15</Stat>
+            <Stat id="defence">25</Stat>
+            <Stat id="magic">20</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Harry Pitcrawler">
+        <Stats>
+            <Stat id="attack">20</Stat>
+            <Stat id="defence">10</Stat>
+            <Stat id="magic">40</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Trollminator">
+        <Stats>
+            <Stat id="attack">31</Stat>
+            <Stat id="defence">31</Stat>
+            <Stat id="magic">10</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Tha'No'S">
+        <Stats>
+            <Stat id="attack">40</Stat>
+            <Stat id="defence">30</Stat>
+            <Stat id="magic">10</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Gruz Bee">
+        <Stats>
+            <Stat id="attack">34</Stat>
+            <Stat id="defence">40</Stat>
+            <Stat id="magic">10</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Great Wario Brothers">
+        <Stats>
+            <Stat id="attack">22</Stat>
+            <Stat id="defence">15</Stat>
+            <Stat id="magic">16</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Losama bin Gr'aahden">
+        <Stats>
+            <Stat id="attack">39</Stat>
+            <Stat id="defence">1</Stat>
+            <Stat id="magic">8</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Nh'eo">
+        <Stats>
+            <Stat id="attack">18</Stat>
+            <Stat id="defence">18</Stat>
+            <Stat id="magic">40</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Garrosh Hellscream">
+        <Stats>
+            <Stat id="attack">41</Stat>
+            <Stat id="defence">22</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Thrall">
+        <Stats>
+            <Stat id="attack">24</Stat>
+            <Stat id="defence">26</Stat>
+            <Stat id="magic">22</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Nether Goblin">
+        <Stats>
+            <Stat id="attack">5</Stat>
+            <Stat id="defence">15</Stat>
+            <Stat id="magic">19</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Mariush Pu'zan Nos'ky">
+        <Stats>
+            <Stat id="attack">34</Stat>
+            <Stat id="defence">34</Stat>
+            <Stat id="magic">5</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Iron goblin">
+        <Stats>
+            <Stat id="attack">2</Stat>
+            <Stat id="defence">50</Stat>
+            <Stat id="magic">2</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Orcdin">
+        <Stats>
+            <Stat id="attack">40</Stat>
+            <Stat id="defence">26</Stat>
+            <Stat id="magic">36</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Grondalf the Green">
+        <Stats>
+            <Stat id="attack">8</Stat>
+            <Stat id="defence">23</Stat>
+            <Stat id="magic">42</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Goblinborn Fus-ro-Dah)">
+        <Stats>
+            <Stat id="attack">18</Stat>
+            <Stat id="defence">14</Stat>
+            <Stat id="magic">13</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Norman Osborn">
+        <Stats>
+            <Stat id="attack">22</Stat>
+            <Stat id="defence">22</Stat>
+            <Stat id="magic">22</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Hulk">
+        <Stats>
+            <Stat id="attack">45</Stat>
+            <Stat id="defence">33</Stat>
+            <Stat id="magic">3</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Zombie Gnome Swarm">
+        <Stats>
+            <Stat id="attack">16</Stat>
+            <Stat id="defence">44</Stat>
+            <Stat id="magic">8</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Ultroll">
+        <Stats>
+            <Stat id="attack">35</Stat>
+            <Stat id="defence">20</Stat>
+            <Stat id="magic">35</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Morag Bal">
+        <Stats>
+            <Stat id="attack">32</Stat>
+            <Stat id="defence">13</Stat>
+            <Stat id="magic">38</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Gruzel the Black Wolf, Killer of Humans">
+        <Stats>
+            <Stat id="attack">41</Stat>
+            <Stat id="defence">41</Stat>
+            <Stat id="magic">28</Stat>
+        </Stats>
+    </Card>
+    ...
+    <Card id="Mecha Ogre">
+        <Stats>
+            <Stat id="attack">37</Stat>
+            <Stat id="defence">47</Stat>
+            <Stat id="magic">0</Stat>
+        </Stats>
+    </Card>
+</Cards>
