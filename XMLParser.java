@@ -13,9 +13,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class XMLParser implements CardDAO {
+public class XMLParser implements CardDAO, Interface {
 
-    public List<Card> cardList;
+    public List<Card> cardList = new ArrayList<>();
     public Document document;
     String pathName;
 
@@ -23,11 +23,14 @@ public class XMLParser implements CardDAO {
         this.cardList = cardList;
         this.document = document;
         this.pathName = pathName;
-        convertXML(document);
+        convertXML();
     }
 
-    @Override
+     @Override
     public void addToListOfCards(Card card) {
+        cardList = getCardList();
+        cardList.add(card);
+      //  pomCardList.add(card);
     }
 
     public List<Card> getCardList() {
@@ -46,8 +49,10 @@ public class XMLParser implements CardDAO {
         return document;
     }
 
-    public void convertXML(Document document) {
+    public void convertXML() {
 //        List<Card> cardsList = new ArrayList<>();
+       // cardList.clear();
+        Document document = loadXmlDocument(pathName);
         NodeList nodeCards = document.getElementsByTagName("Card");
 
         for (int i = 0; i < nodeCards.getLength(); i++) {
@@ -67,16 +72,20 @@ public class XMLParser implements CardDAO {
                 int statValue = Integer.parseInt(nodestat.getTextContent());
                 statsList.add(statValue);
             }
+
             Card cardToAdd = new Card(cardId, statsList.get(0), statsList.get(1), statsList.get(2));
-            return cardToAdd;
-            addToListOfCards(cardToAdd);
+               addToListOfCards(cardToAdd);
+
+          // cardList.add(cardToAdd);
         }
+       // return cardList;
     }
     @Override
     public List<Card> getAllCards() {
-        List<Card> cards = new ArrayList<>();
+        //List<Card> cards = new ArrayList<>();
 
-        return cards;
+
+        return cardList;
 
     }
 }
