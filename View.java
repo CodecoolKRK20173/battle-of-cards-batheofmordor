@@ -1,21 +1,33 @@
 import javax.xml.transform.SourceLocator;
-import java.util.List;
 
 public class View {
     public View(){
+
     }
 
-    public void printPlayerTurn(Player player) {
+    public void printCardStat(Card card){
+        System.out.println();
+        System.out.println("++++++++++++++++++++");
+        System.out.println("+                  +");
+        String[] stringsName = card.getName().split(" ");
+        for (int i  = 0; i < stringsName.length; i++ ){
+            if (i % 2 != 0 || i == stringsName.length-1) {
+                System.out.println("  " + stringsName[i].toUpperCase());
+            }
+            else{
+                System.out.print("  " + stringsName[i].toUpperCase());
+            }
 
-        System.out.println("Now is Player " + player.getName() + " turn.");
-        System.out.println("----------------------------------");
-    }
 
-    public void printCardStats(Card card){
-        System.out.println("Unit Name               ->" + card.getName());
-        System.out.println("Attack Statistic        ->" + card.getAttack());
-        System.out.println("Defense Statistic       ->" + card.getDefense());
-        System.out.println("Magic Statistic         ->" + card.getMagic());
+        }
+        System.out.println("+                  +");
+        System.out.println("+  Attack: " + card.getAttack());
+        System.out.println("+  Defense: " + card.getDefense());
+        System.out.println("+  Magic: " + card.getMagic() );
+        System.out.println("+                  +");
+        System.out.println("++++++++++++++++++++");
+
+
     }
 
     public void printPlayerWinTurn (Player player){
