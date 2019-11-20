@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Cards>
-    <Card id="Gnome Warrior">
+    <Card id="Zbigniew Stonoga">
         <Stats>
             <Stat id="attack">7</Stat>
             <Stat id="defence">4</Stat>
@@ -8,7 +8,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Gnome Archer">
+    <Card id="Pan Wiesio">
         <Stats>
             <Stat id="attack">9</Stat>
             <Stat id="defence">2</Stat>
@@ -16,7 +16,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Gnome Mage">
+    <Card id="Kapitan Bomba">
         <Stats>
             <Stat id="attack">4</Stat>
             <Stat id="defence">1</Stat>
@@ -24,7 +24,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Gnome Screamer">
+    <Card id="Janusz Korwin Mikke">
         <Stats>
             <Stat id="attack">5</Stat>
             <Stat id="defence">3</Stat>
@@ -32,7 +32,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Goblin Warrior">
+    <Card id="Noobatron">
         <Stats>
             <Stat id="attack">8</Stat>
             <Stat id="defence">4</Stat>
@@ -40,7 +40,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Goblin Archer">
+    <Card id="Iron Man">
         <Stats>
             <Stat id="attack">10</Stat>
             <Stat id="defence">3</Stat>
@@ -48,7 +48,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Goblin Mage">
+    <Card id="Biszkopt Miszkopt">
         <Stats>
             <Stat id="attack">5</Stat>
             <Stat id="defence">1</Stat>
@@ -56,7 +56,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Goblin Screamer">
+    <Card id="Kierowca Malucha">
         <Stats>
             <Stat id="attack">3</Stat>
             <Stat id="defence">4</Stat>
@@ -64,7 +64,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Orc Warrior">
+    <Card id="Geralt ze wsi">
         <Stats>
             <Stat id="attack">10</Stat>
             <Stat id="defence">5</Stat>
@@ -72,7 +72,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Orc Archer">
+    <Card id="Cialo Chytrus">
         <Stats>
             <Stat id="attack">11</Stat>
             <Stat id="defence">4</Stat>
@@ -80,7 +80,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Orc Mage">
+    <Card id="Lucjan">
         <Stats>
             <Stat id="attack">4</Stat>
             <Stat id="defence">1</Stat>
@@ -88,7 +88,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Orc Screamer">
+    <Card id="Filip z Konopii">
         <Stats>
             <Stat id="attack">10</Stat>
             <Stat id="defence">2</Stat>
@@ -96,7 +96,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ogre Warrior">
+    <Card id="Anonimowy Alkoholik">
         <Stats>
             <Stat id="attack">15</Stat>
             <Stat id="defence">5</Stat>
@@ -104,7 +104,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ogre Archer">
+    <Card id="Jolanta Pawlowicz the nutcracker">
         <Stats>
             <Stat id="attack">15</Stat>
             <Stat id="defence">3</Stat>
@@ -112,7 +112,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ogre Mage">
+    <Card id="Donald Trump">
         <Stats>
             <Stat id="attack">8</Stat>
             <Stat id="defence">4</Stat>
@@ -120,7 +120,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ogre Screamer">
+    <Card id="Retardation Totalitation">
         <Stats>
             <Stat id="attack">8</Stat>
             <Stat id="defence">4</Stat>
@@ -136,7 +136,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Orok the Swift">
+    <Card id="Antoni Macierewicz the Special">
         <Stats>
             <Stat id="attack">15</Stat>
             <Stat id="defence">8</Stat>
@@ -144,7 +144,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Bomag the Second">
+    <Card id="Andrzej Duda the Catface">
         <Stats>
             <Stat id="attack">9</Stat>
             <Stat id="defence">9</Stat>

@@ -25,7 +25,8 @@ public class Stock implements Interface {
         return listOfCards.size();
     }
 
-    public Card getCard(int index){
-        return listOfCards.get(index);
+    public Card getCard(int index, List<Card> cards){
+
+        return cards.get(index);
     }
 }

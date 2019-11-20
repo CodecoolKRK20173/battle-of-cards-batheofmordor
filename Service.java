@@ -22,12 +22,12 @@ public class Service {
         }
     }
 
-    public void createDeck() {
+    public void createDeck(List<Card> cards) {
         int cardsIterator = 0;
         for (Player player : players) {
             int numOfCardsForPlayer = 6;
             for (int i = 0; i < numOfCardsForPlayer; i++) {
-                player.getCardsToUse().addToListOfCards(stock.getCard(cardsIterator));
+                player.getCardsToUse().addToListOfCards(stock.getCard(cardsIterator, cards));
                 cardsIterator++;
             }
         }
