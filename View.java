@@ -1,11 +1,17 @@
 import javax.xml.transform.SourceLocator;
+import java.util.List;
 
 public class View {
     public View(){
 
     }
+    public void printPlayerTurn(Player player) {
 
-    public void printCardStat(Card card){
+        System.out.println("Now is Player " + player.getName() + " turn.");
+        System.out.println("─────────────────────────────────");
+    }
+
+    public void printCardStats(Card card){
         System.out.println();
         System.out.println("++++++++++++++++++++");
         System.out.println("+                  +");
