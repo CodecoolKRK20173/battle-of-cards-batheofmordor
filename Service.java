@@ -13,7 +13,9 @@ public class Service {
         this.players = new ArrayList<>();
         this.xmlParser = new XMLParser("cardsStorage.xml");
         this.stock = new Stock();
+        addListOfCardsToStock(xmlParser.getCardList());
         stock.shuffle();
+
     }
 
     public void addListOfCardsToStock(List<Card> cardsInStock) {
@@ -22,12 +24,12 @@ public class Service {
         }
     }
 
-    public void createDeck(List<Card> cards) {
+    public void createDeck() {
         int cardsIterator = 0;
         for (Player player : players) {
             int numOfCardsForPlayer = 6;
             for (int i = 0; i < numOfCardsForPlayer; i++) {
-                player.getCardsToUse().addToListOfCards(stock.getCard(cardsIterator, cards));
+                player.getCardsToUse().addToListOfCards(stock.getCard(cardsIterator));
                 cardsIterator++;
             }
         }
@@ -43,7 +45,7 @@ public class Service {
 
     public String diceOfParameter(){
         String parameter;
-        String[] stringParam = {"Attack","Defence","Magic"};
+        String[] stringParam = {"Strength","Agility","Intelligence"};
         List<String> parameters = new ArrayList<>(Arrays.asList(stringParam));
         Collections.shuffle(parameters);
         parameter = parameters.get(0);

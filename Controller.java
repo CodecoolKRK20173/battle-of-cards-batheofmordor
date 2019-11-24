@@ -8,8 +8,8 @@ public class Controller {
     private View view;
     private Player playerTurn;
 
-    CardDAO dao = new XMLParser("cardsStorage.xml");
-    List<Card> cards = dao.getAllCards();
+//    CardDAO dao = new XMLParser("cardsStorage.xml");
+//    List<Card> cards = dao.getAllCards();
 
     public Controller() {
         this.service = new Service();
@@ -47,7 +47,7 @@ public class Controller {
     }
 
     private void game() {
-        service.createDeck(cards);
+        service.createDeck();
         Random rand = new Random();
         int randomNum = rand.nextInt(service.getPlayers().size());
         playerTurn = service.getPlayers().get(randomNum);
@@ -69,6 +69,7 @@ public class Controller {
                     turnValueSeter(player, card, parameterInTurn);
                     view.printCardStats(card);
                     moveCardToTrash(player, card);
+                    System.out.print("\033[H\033[2J");
                 }
             }
 
@@ -76,7 +77,8 @@ public class Controller {
             view.printPlayerWinTurn(playerTurn);
             playerTurn.addScore();
         }
-        playerTurn = whoWonTurn();
+
+        playerTurn = whoWonGame();
         view.printPlayerWinGame(playerTurn);
         view.printAllScores(service.getPlayers());
     }
@@ -102,7 +104,7 @@ public class Controller {
             input = scan.nextInt();
         }
         input = input-1;
-        return player.getCardsToUse().getCard(input, cards);
+        return player.getCardsToUse().getCard(input);
     }
 
     public boolean checkIfGameNotEnd(Player player){
@@ -114,7 +116,7 @@ public class Controller {
 
     public void moveCardToTrash (Player player, Card card) {
         player.getCardsToUse().trashOfCards.add(card);
-        player.getCardsToUse().listOfCards.add(card);
+        player.getCardsToUse().listOfCards.remove(card);
     }
 
     public void turnValueSeter(Player player, Card card, String stat){

@@ -104,7 +104,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Jolanta Pawlowicz the nutcracker">
+    <Card id="Jolanta Pawlowicz the Nutcracker">
         <Stats>
             <Stat id="attack">15</Stat>
             <Stat id="defence">3</Stat>
@@ -128,7 +128,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Urag Spearthrower">
+    <Card id="Hrabia Bekon">
         <Stats>
             <Stat id="attack">10</Stat>
             <Stat id="defence">10</Stat>
@@ -152,7 +152,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Weezer of the Swamp Forest">
+    <Card id="Ognista Żaba">
         <Stats>
             <Stat id="attack">8</Stat>
             <Stat id="defence">16</Stat>
@@ -160,15 +160,15 @@
         </Stats>
     </Card>
     ...
-    <Card id="Warlock of the Abyss">
+    <Card id="Prezes the Small">
         <Stats>
-            <Stat id="attack">15</Stat>
-            <Stat id="defence">8</Stat>
-            <Stat id="magic">20</Stat>
+            <Stat id="attack">100</Stat>
+            <Stat id="defence">100</Stat>
+            <Stat id="magic">100</Stat>
         </Stats>
     </Card>
     ...
-    <Card id="Destroyer S'hrekk">
+    <Card id="Stefan Kosiarka">
         <Stats>
             <Stat id="attack">20</Stat>
             <Stat id="defence">8</Stat>
@@ -176,7 +176,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Jeff the Orkish Knight">
+    <Card id="Tadeusz Rydzyk the Greedy">
         <Stats>
             <Stat id="attack">15</Stat>
             <Stat id="defence">15</Stat>
@@ -184,7 +184,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Je'shy Dud'ak the Keeper">
+    <Card id="Towarzysz Jebiewdenko">
         <Stats>
             <Stat id="attack">5</Stat>
             <Stat id="defence">30</Stat>
@@ -192,7 +192,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Gurub Gur the Necromancer">
+    <Card id="Okruszek Zaglady">
         <Stats>
             <Stat id="attack">10</Stat>
             <Stat id="defence">5</Stat>
@@ -200,7 +200,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Swamp Troll">
+    <Card id="Nie czytaj tego">
         <Stats>
             <Stat id="attack">25</Stat>
             <Stat id="defence">10</Stat>
@@ -208,7 +208,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Half Orc Half Dragon">
+    <Card id="Kon Rafal">
         <Stats>
             <Stat id="attack">20</Stat>
             <Stat id="defence">20</Stat>
@@ -216,7 +216,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ti'mey the Juggernaut">
+    <Card id="Adam Malysz">
         <Stats>
             <Stat id="attack">33</Stat>
             <Stat id="defence">3</Stat>
@@ -224,7 +224,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ogre Fairy">
+    <Card id="Wroz Janusz">
         <Stats>
             <Stat id="attack">7</Stat>
             <Stat id="defence">10</Stat>
@@ -232,7 +232,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Jumuk Yum Yum">
+    <Card id="Stanislaw Piotrowicz the Mole">
         <Stats>
             <Stat id="attack">1</Stat>
             <Stat id="defence">20</Stat>
@@ -240,7 +240,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Imperator Trollpatine">
+    <Card id="Ryszard Terlecki">
         <Stats>
             <Stat id="attack">20</Stat>
             <Stat id="defence">20</Stat>
@@ -248,7 +248,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Lu'Ke Groundrunner">
+    <Card id="Mysia Agresia">
         <Stats>
             <Stat id="attack">15</Stat>
             <Stat id="defence">25</Stat>
@@ -256,7 +256,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Harry Pitcrawler">
+    <Card id="BI_edron">
         <Stats>
             <Stat id="attack">20</Stat>
             <Stat id="defence">10</Stat>
@@ -264,7 +264,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Trollminator">
+    <Card id="Gregory Schetyna the Smiley">
         <Stats>
             <Stat id="attack">31</Stat>
             <Stat id="defence">31</Stat>
@@ -272,7 +272,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Tha'No'S">
+    <Card id="Niewidzialna Kanalia">
         <Stats>
             <Stat id="attack">40</Stat>
             <Stat id="defence">30</Stat>
@@ -280,7 +280,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Gruz Bee">
+    <Card id="Agent Tomek">
         <Stats>
             <Stat id="attack">34</Stat>
             <Stat id="defence">40</Stat>
@@ -288,7 +288,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Great Wario Brothers">
+    <Card id="Adrian Duda the Dog">
         <Stats>
             <Stat id="attack">22</Stat>
             <Stat id="defence">15</Stat>
@@ -296,7 +296,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Losama bin Gr'aahden">
+    <Card id="Swetru Petru the Opportunist">
         <Stats>
             <Stat id="attack">39</Stat>
             <Stat id="defence">1</Stat>
@@ -304,7 +304,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Nh'eo">
+    <Card id="Krzysztof Jarzyna ze Szczecina">
         <Stats>
             <Stat id="attack">18</Stat>
             <Stat id="defence">18</Stat>
@@ -320,7 +320,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Thrall">
+    <Card id="Przedostatni Mohikanin">
         <Stats>
             <Stat id="attack">24</Stat>
             <Stat id="defence">26</Stat>
@@ -328,7 +328,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Nether Goblin">
+    <Card id="Matka Polka">
         <Stats>
             <Stat id="attack">5</Stat>
             <Stat id="defence">15</Stat>
@@ -336,7 +336,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Mariush Pu'zan Nos'ky">
+    <Card id="Placzacy Niemiec">
         <Stats>
             <Stat id="attack">34</Stat>
             <Stat id="defence">34</Stat>
@@ -344,7 +344,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Iron goblin">
+    <Card id="Czarny Troll">
         <Stats>
             <Stat id="attack">2</Stat>
             <Stat id="defence">50</Stat>
@@ -352,7 +352,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Orcdin">
+    <Card id="Ferdynand Kiepski">
         <Stats>
             <Stat id="attack">40</Stat>
             <Stat id="defence">26</Stat>
@@ -360,7 +360,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Grondalf the Green">
+    <Card id="Marian Pazdzioch">
         <Stats>
             <Stat id="attack">8</Stat>
             <Stat id="defence">23</Stat>
@@ -368,7 +368,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Goblinborn Fus-ro-Dah)">
+    <Card id="Arnold Boczek">
         <Stats>
             <Stat id="attack">18</Stat>
             <Stat id="defence">14</Stat>
@@ -376,7 +376,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Norman Osborn">
+    <Card id="Grzegorz Brzenczystrzykiewicz">
         <Stats>
             <Stat id="attack">22</Stat>
             <Stat id="defence">22</Stat>
@@ -384,7 +384,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Hulk">
+    <Card id="Konstantynopolitanczykiewiczowna">
         <Stats>
             <Stat id="attack">45</Stat>
             <Stat id="defence">33</Stat>
@@ -392,7 +392,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Zombie Gnome Swarm">
+    <Card id="Franek Kimono">
         <Stats>
             <Stat id="attack">16</Stat>
             <Stat id="defence">44</Stat>
@@ -400,7 +400,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Ultroll">
+    <Card id="Schleswig-Holstein">
         <Stats>
             <Stat id="attack">35</Stat>
             <Stat id="defence">20</Stat>
@@ -408,7 +408,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Morag Bal">
+    <Card id="Kaszanka">
         <Stats>
             <Stat id="attack">32</Stat>
             <Stat id="defence">13</Stat>
@@ -416,7 +416,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Gruzel the Black Wolf, Killer of Humans">
+    <Card id="Cyber Marian">
         <Stats>
             <Stat id="attack">41</Stat>
             <Stat id="defence">41</Stat>
@@ -424,7 +424,7 @@
         </Stats>
     </Card>
     ...
-    <Card id="Mecha Ogre">
+    <Card id="Sowka i przyjaciele">
         <Stats>
             <Stat id="attack">37</Stat>
             <Stat id="defence">47</Stat>
